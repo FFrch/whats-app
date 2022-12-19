@@ -1,0 +1,61 @@
+.maxi-avatar{
+  img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-position: top;
+    object-fit: cover;
+  }
+
+  .tag{
+    background-color: $main-blue;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: none;
+    position: relative;
+    right: 69px;
+    bottom: 15px;
+
+    svg{
+      color: white;
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+.mini-avatar{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-position: top;
+  object-fit: cover;
+}
+
+.contact-avatar{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-position: top;
+  object-fit: cover;
+}
+
+.story-avatar{
+  width: 125px;
+  height: 125px;
+  border: solid 2px $main-blue;
+  border-radius: 50%;
+  position: relative;
+
+  img{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    object-position: top;
+    object-fit: cover;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+  }
+}

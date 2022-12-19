@@ -1,0 +1,22 @@
+.searchbar{
+  display: flex;
+  align-items: center;
+
+  border: solid 1px #99a0a97d;
+  border-radius: 50px;
+  padding: 29px 37px;
+  width: fit-content;
+
+  svg{
+    width: 40px;
+    color: $font-color-para;
+  }
+  input{
+    width: 213px;
+    border: none;
+    font-size: 24px;
+    color: $font-color-para;
+    font-family: Montserrat, sans-serif;
+    margin-left: 13px;
+  }
+}

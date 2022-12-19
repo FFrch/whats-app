@@ -1,0 +1,16 @@
+.stories-component{
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+
+  .story-button{
+    flex-grow: 1;
+    min-width: 125px;
+  }
+
+  .story-avatar{
+    margin-left: 30px;
+    flex-grow: 1;
+    min-width: 125px;
+  }
+}

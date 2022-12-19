@@ -1,0 +1,49 @@
+.setting-input{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 16%;
+
+  svg{
+    width: 40px;
+  }
+
+  .arrow-icon{
+    color: $font-color-para;
+  }
+
+  select{
+    width: 30%;
+    height: 100px;
+    border: none;
+    appearance: none;
+    margin-left: 50px;
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 500;
+    flex-grow: 2;
+  }
+}
+
+.log-out{
+  color: #E03030;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 16%;
+
+  svg{
+    width: 40px;
+  }
+
+  a{
+    margin: 0;
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-weight: 500;
+    flex-grow: 2;
+    margin-left: 50px;
+    color: #E03030;
+  }
+}

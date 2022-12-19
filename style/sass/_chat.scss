@@ -1,0 +1,64 @@
+.recent-chat-card{
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+
+  div{
+    margin-left: 40px;
+    font-family: $main-font;
+
+    .contact-name{
+      font-size: 32px;
+      font-weight: 500;
+      margin: 24px 0;
+    }
+
+    .message-extract{
+      color: $font-color-para;
+      font-size: 24px;
+      margin-top: 0 0 24px 0;
+    }
+  }
+
+  .checked-icon{
+    margin-left: auto;
+    background-color: #e7e7e7;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+    svg{
+      width: 26px;
+      height: 26px;
+      position: relative;
+      left: 7px;
+      bottom: -6px;
+      color: $font-color-para;
+    }
+
+    // &:active {
+    //   background-color: $main-blue;
+
+    //   svg{
+    //     color: white;
+    //   }
+    // }
+  }
+
+  .active-checked-icon{
+    margin-left: auto;
+    background-color: $main-blue;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+    svg{
+      width: 26px;
+      height: 26px;
+      position: relative;
+      left: 7px;
+      bottom: -6px;
+      color: white;
+    }
+  }
+}

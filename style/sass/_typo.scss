@@ -1,0 +1,34 @@
+.title {
+  font-family: $main-font;
+  font-weight: $font-weight-title;
+  font-size: $font-size-title;
+  text-align: center;
+}
+
+.subtitle{
+  font-family: $main-font;
+  font-weight: $font-weight-subtitle;
+  font-size: $font-size-subtitle;
+}
+
+.para {
+  color: $font-color-para;
+  font-family: $main-font;
+  font-weight: $font-weight-para;
+  font-size: $font-size-para;
+  text-align: center;
+}
+
+.view-title{
+ display: flex;
+ align-items: center;
+
+ font-family: $main-font;
+ font-weight: $font-weight-title;
+ font-size: $font-size-view-title1;
+
+ p{
+  font-size: $font-size-view-title2;
+  margin: 5px 0 0 25px;
+ }
+}

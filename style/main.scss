@@ -1,12 +1,20 @@
 @import 'sass/variable';
 @import 'sass/typo';
-@import 'sass/button';
-@import 'sass/avatar';
-@import 'sass/searchbar';
-@import 'sass/stories';
-@import 'sass/chat';
-@import 'sass/call-tab';
-@import 'sass/input';
+
+@import 'sass/components/button';
+@import 'sass/components/avatar';
+@import 'sass/components/searchbar';
+@import 'sass/components/stories';
+@import 'sass/components/chat';
+@import 'sass/components/call-tab';
+@import 'sass/components/input';
+
+@import 'sass/layout/header';
+@import 'sass/layout/body';
+@import 'sass/layout/footer';
+
+@import 'sass/pages/landing';
+@import 'sass/pages/inbox';
 
 @import "fontawesome/scss/fontawesome.scss";
 @import "fontawesome/scss/brands.scss";

@@ -1,0 +1,15 @@
+.landing-background{
+  background-image: linear-gradient(rgb(248 249 249 / 72%), rgb(248 249 249 / 72%)), url(../style/image/landing-background.jpg);
+  height: 55vh;
+}
+
+.button-section{
+  display: flex;
+  align-items: stretch;
+  margin-top: 100px;
+  justify-content: center;
+
+  button:nth-child(2){
+    margin: 0px 40px;
+  }
+}

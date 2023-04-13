@@ -9,14 +9,16 @@
   font-family: $main-font;
   font-weight: $font-weight-subtitle;
   font-size: $font-size-subtitle;
+  margin-left: 50px;
 }
 
 .para {
   color: $font-color-para;
   font-family: $main-font;
-  font-weight: $font-weight-para;
-  font-size: $font-size-para;
+  font-weight: $font-weight-title;
+  font-size: 26px;
   text-align: center;
+  margin-top: 0;
 }
 
 .view-title{

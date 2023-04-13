@@ -8,15 +8,17 @@
 .subtitle {
   font-family: Montserrat, sans-serif;
   font-weight: 600;
-  font-size: 11px;
+  font-size: 25px;
+  margin-left: 50px;
 }
 
 .para {
   color: #99A0A9;
   font-family: Montserrat, sans-serif;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 26px;
   text-align: center;
+  margin-top: 0;
 }
 
 .view-title {
@@ -74,10 +76,14 @@
   width: 45px;
 }
 
+.maxi-avatar {
+  text-align: center;
+  margin-bottom: 50px;
+}
 .maxi-avatar img {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   object-position: top;
   object-fit: cover;
 }
@@ -107,10 +113,11 @@
 
 .contact-avatar {
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   object-position: top;
   object-fit: cover;
+  margin-bottom: 40px;
 }
 
 .story-avatar {
@@ -156,6 +163,7 @@
   display: flex;
   align-items: center;
   overflow-x: scroll;
+  margin-left: 50px;
 }
 .stories-component .story-button {
   flex-grow: 1;
@@ -170,7 +178,7 @@
 .recent-chat-card {
   display: flex;
   align-items: center;
-  margin-bottom: 50px;
+  margin: 0px 50px 0px 50px;
 }
 .recent-chat-card div {
   margin-left: 40px;
@@ -219,7 +227,7 @@
 
 .call-tab-component {
   display: flex;
-  margin: 0 35px;
+  margin: 0px 50px 50px 50px;
   background-color: #e7e7e7;
   border-radius: 80px;
   padding: 10px 10px;
@@ -245,7 +253,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin: 0 16%;
+  margin: 0px 50px 0px 50px;
 }
 .setting-input svg {
   width: 40px;
@@ -270,7 +278,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin: 0 16%;
+  margin: 0px 50px 0px 50px;
 }
 .log-out svg {
   width: 40px;
@@ -336,7 +344,7 @@ footer svg:hover, footer svg:active {
 .sub-header {
   display: flex;
   justify-content: space-between;
-  margin: 0px 50px;
+  margin: 0px 50px 50px 50px;
   align-items: center;
 }
 
